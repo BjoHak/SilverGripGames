@@ -14,6 +14,226 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
+    background: #171719;
+    color: #eee8d5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+.site-header {
+    height: 64px;
+    padding: 0 24px 0 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #201d1e;
+    border-bottom: 1px solid #292526;
+}
+
+.logo img {
+    display: block;
+    width: 54px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    gap: 44px;
+    margin-left: 120px;
+}
+
+nav a,
+.socials a {
+    color: #eee8d5;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav a:hover,
+.socials a:hover {
+    color: #ff7b00;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.press-button {
+    padding: 8px 10px;
+    border: 2px solid #ff7b00;
+    border-radius: 4px;
+
+    color: #ff7b00;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.press-button:hover {
+    background: #ff7b00;
+    color: #171719;
+}
+
+.socials {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.socials a {
+    color: #a75b0d;
+    font-size: 18px;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: calc(100vh - 118px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Replace background.jpg with your own background */
+    background:
+        linear-gradient(rgba(15, 16, 17, 0.78), rgba(15, 16, 17, 0.78)),
+        url("assets/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    width: 340px;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.hero-logo {
+    display: block;
+    width: 340px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    color: #c8944b;
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.hero-text p {
+    margin: 0 0 4px;
+}
+
+.hero-text strong {
+    color: #d9a34e;
+}
+
+.main-button {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 11px 24px;
+
+    border-radius: 24px;
+    background: #ff7b00;
+
+    color: #151515;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-button:hover {
+    background: #ff9233;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 54px;
+    padding: 0 18px;
+
+    display: flex;
+    align-items: center;
+
+    background: #1d191b;
+}
+
+footer p {
+    margin: 0;
+    color: #c8944b;
+    font-size: 9px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 750px) {
+
+    .site-header {
+        height: auto;
+        min-height: 64px;
+        flex-wrap: wrap;
+        gap: 18px;
+        padding: 12px 16px;
+    }
+
+    nav {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        gap: 24px;
+    }
+
+    .header-right {
+        gap: 18px;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .hero {
+        min-height: calc(100vh - 130px);
+    }
+
+    .hero-content {
+        width: min(340px, 85vw);
+        margin: 0;
+    }
+
+    .hero-logo {
+        width: 100%;
+    }
+}
+/* --------------------------------------------------
+   SILVER GRIP GAMES
+   Simple starting stylesheet
+   -------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
     background: #ffffff;
     color: #eee8d5;
     font-family: Arial, Helvetica, sans-serif;
