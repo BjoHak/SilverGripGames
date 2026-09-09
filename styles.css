@@ -91,7 +91,11 @@ nav a:hover,
     color: #a75b0d;
     font-size: 18px;
 }
-
+.socials img {
+    width: 22px;
+    height: 22px;
+    display: block;
+}
 
 /* HERO */
 
