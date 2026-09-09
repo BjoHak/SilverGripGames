@@ -96,6 +96,9 @@ nav a:hover,
     height: 22px;
     display: block;
 }
+.socials img:hover {
+    color: #171719;
+}
 
 /* HERO */
 
