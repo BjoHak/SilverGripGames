@@ -94,9 +94,10 @@ nav a:hover,
     width: 22px;
     height: 22px;
     display: block;
+    transition: filter 0.2s ease;
 }
-.socials img:hover {
-    color: #171719;
+.socials a:hover img {
+    filter: brightness(0) saturate(100%) invert(49%) sepia(98%) saturate(2500%) hue-rotate(2deg) brightness(105%);
 }
 
 /* HERO */
