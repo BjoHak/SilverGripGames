@@ -111,7 +111,7 @@ nav a:hover,
 
     /* Replace background.jpg with your own background */
     background:
-        /*linear-gradient(rgba(15, 16, 17, 0.78), rgba(15, 16, 17, 0.78)),*/
+        linear-gradient(rgba(15, 16, 17, 0.78), rgba(15, 16, 17, 0.78)),
         url("img/BG_Tiled_v2.png");
 
     background-size: cover;
