@@ -55,7 +55,7 @@ nav a,
 }
 
 nav a:hover,
-.socials a:hover {
+. a:hover {
     color: #ff7b00;
 }
 
@@ -84,9 +84,6 @@ nav a:hover,
 .socials {
     display: flex;
     gap: 14px;
-    width: 100%;
-    max-width: 32px;
-    height: auto;
     align-items: center;
 }
 
