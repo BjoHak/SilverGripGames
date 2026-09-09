@@ -104,18 +104,27 @@ nav a:hover,
 
 .hero {
     min-height: calc(100vh - 118px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("img/BG_Tiled_v2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*.hero {
+    min-height: calc(100vh - 118px);
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /* Replace background.jpg with your own background */
+   
     background:
     background: url("img/BG_Tiled_v2.jpg");
    
     background-size: cover;
     background-position: center;
-}
+}*/
 
 .hero-content {
     width: 340px;
