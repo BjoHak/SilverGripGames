@@ -111,8 +111,8 @@ nav a:hover,
 
     /* Replace background.jpg with your own background */
     background:
-    background:  url("img/BG_Tiled_v2.jpg") 
-
+    background: url("img/BG_Tiled_v2.jpg");
+   
     background-size: cover;
     background-position: center;
 }
