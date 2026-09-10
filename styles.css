@@ -186,7 +186,7 @@ h1 {
     background-position: center;
 }
 /*----------------CONTACT.HTML-------------------------*/
-a:mail-link {
+.a:mail-link {
   color: #ff7b00;
 }
 /* 2. Visited link (After a user has clicked it) */
