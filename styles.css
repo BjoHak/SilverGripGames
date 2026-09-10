@@ -186,20 +186,17 @@ h1 {
     background-position: center;
 }
 /*----------------CONTACT.HTML-------------------------*/
-.a:mail-link {
+a.mail-to:link {
   color: #ff7b00;
 }
-/* 2. Visited link (After a user has clicked it) */
-a:visited {
-  color: #b35600; /* Often a slightly darker shade */
+a.mail-to:visited {
+  color: #b35600; 
 }
-/* 3. Hover link (When mouse is over it) */
-a:hover {
-  color: #ff9d42; /* Often a brighter or lighter shade */
+a.mail-to:hover {
+  color: #ff9d42; 
   text-decoration: underline; 
 }
-/* 4. Active link (The exact moment it is being clicked) */
-a:active {
+a.mail-to:active {
   color: #cc6200;
 }
 
