@@ -171,7 +171,15 @@ nav a:hover,
 .main-button:hover {
     background: #ff9233;
 }
+/*----------------GAMES.HTML-------------------------*/
+.games-page .hero {
+    background:
+        linear-gradient(rgba(15, 16, 17, 0.4), rgba(15, 16, 17, 0.4)),
+        url("img/Splash.png");
 
+    background-size: cover;
+    background-position: center;
+}
 
 /* FOOTER */
 
