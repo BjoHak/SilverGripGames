@@ -171,6 +171,11 @@ nav a:hover,
 .main-button:hover {
     background: #ff9233;
 }
+
+h1 {
+  font-size: 3rem; /* Makes the font 3x the standard size (approx. 48px) */
+  font-weight: bold; /* Ensures the header is thick and prominent */
+}
 /*----------------GAMES.HTML-------------------------*/
 .games-page .hero {
     background:
