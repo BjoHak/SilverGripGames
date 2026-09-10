@@ -186,17 +186,17 @@ h1 {
     background-position: center;
 }
 /*----------------CONTACT.HTML-------------------------*/
-a.mail-to:link {
+a.mail-link:link {
   color: #ff7b00;
 }
-a.mail-to:visited {
+a.mail-link:visited {
   color: #b35600; 
 }
-a.mail-to:hover {
+a.mail-link:hover {
   color: #ff9d42; 
   text-decoration: underline; 
 }
-a.mail-to:active {
+a.mail-link:active {
   color: #cc6200;
 }
 
