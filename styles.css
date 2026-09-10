@@ -186,27 +186,24 @@ h1 {
     background-position: center;
 }
 /*----------------CONTACT.HTML-------------------------*/
-a:link {
+a:mail-link {
   color: #ff7b00;
 }
-
 /* 2. Visited link (After a user has clicked it) */
 a:visited {
   color: #b35600; /* Often a slightly darker shade */
 }
-
 /* 3. Hover link (When mouse is over it) */
 a:hover {
   color: #ff9d42; /* Often a brighter or lighter shade */
   text-decoration: underline; 
 }
-
 /* 4. Active link (The exact moment it is being clicked) */
 a:active {
   color: #cc6200;
 }
 
-/* FOOTER */
+/* FOOTER https://drive.google.com/drive/folders/1RCP832vhy_LqXQA5UhNiaHJUXPJgkXQR?usp=sharing*/
 
 footer {
     height: 54px;
