@@ -107,7 +107,7 @@ nav a:hover,
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("img/BG_Tiled_v2.jpg");
+    background: url("img/BG_Tiled_v2.webp");
     background-size: cover;
     background-position: center;
 }
@@ -180,7 +180,7 @@ h1 {
 .games-page .hero {
     background:
         linear-gradient(rgba(15, 16, 17, 0.4), rgba(15, 16, 17, 0.4)),
-        url("img/Splash.png");
+        url("img/Splash.webp");
 
     background-size: cover;
     background-position: center;
