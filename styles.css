@@ -218,6 +218,13 @@ footer p {
     font-size: 9px;
 }
 
+.hero-content iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    display: block;
+    border: none;
+}
 
 /* MOBILE */
 
@@ -251,10 +258,10 @@ footer p {
         min-height: calc(100vh - 130px);
     }
 
-    .hero-content {
-        width: min(340px, 85vw);
-        margin: 0;
-    }
+   .hero-content {
+       width: min(560px, 90vw);
+       margin: 0;
+   }
 
     .hero-logo {
         width: 100%;
