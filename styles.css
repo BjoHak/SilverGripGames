@@ -230,6 +230,7 @@ footer p {
 
 @media (max-width: 750px) {
 
+
     .site-header {
         height: auto;
         min-height: 64px;
@@ -258,10 +259,10 @@ footer p {
         min-height: calc(100vh - 130px);
     }
 
-   .hero-content {
-       width: min(560px, 90vw);
-       margin: 0;
-   }
+    .hero-content {
+        width: 90vw;
+        margin: 0;
+    }
 
     .hero-logo {
         width: 100%;
